@@ -25,6 +25,10 @@
 2. [Project 002](./project_002.md)
 3. [Project 003](./project_003.md)
 
+
+### Basic Capstone Projects
+1. [LibraryManagementSystem](./LibraryManagementSystem)
+
 ---
 
 ## Learning Outcomes
