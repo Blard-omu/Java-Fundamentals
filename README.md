@@ -27,7 +27,7 @@
 
 
 ### Basic Capstone Projects
-1. [LibraryManagementSystem](./LibraryManagementSystem)
+1. [LibraryManagementSystem](./LibraryManagementSystem.java)
 
 ---
 
