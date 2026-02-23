@@ -1,180 +1,322 @@
-## Month 1: Foundations of Java By BLARD
-**Goal**: Master basic syntax, control flow, and introductory methods.
-
-### Week 1: Java Setup and Basics
-- **Day 1**: Understand Java (JDK, JRE, JVM); install JDK; write `HelloWorld.java`.
-  - Practice: Print your name and a welcome message.
-- **Day 2**: Learn comments (`//`, `/* */`); explore primitive data types (`int`, `double`, `char`, `boolean`).
-  - Practice: Declare and print variables of different primitive types.
-- **Day 3**: Study non-primitive types (`String`); learn variables and constants (`final`).
-  - Practice: Create a program to concatenate strings and use a constant.
-- **Day 4**: Learn arithmetic operators (`+`, `-`, `*`, `/`, `%`).
-  - Practice: Write a program to calculate area of a rectangle.
-- **Day 5**: Learn comparison (`==`, `!=`, `>`, `<`) and logical operators (`&&`, `||`, `!`).
-  - Practice: Check if a number is positive and even.
-- **Weekend**: Review Week 1; write a program combining variables and operators (e.g., calculate and compare two numbers).
-
-### Week 2: Control Flow - Conditionals
-- **Day 1**: Learn `if`, `else if`, `else` statements.
-  - Practice: Check if a number is positive, negative, or zero.
-- **Day 2**: Deepen understanding of nested `if` statements.
-  - Practice: Write a program to categorize age (child, teen, adult).
-- **Day 3**: Learn `switch` statement.
-  - Practice: Create a program to print day names based on numbers (1-7).
-- **Day 4**: Combine `if` and `switch` for decision-making.
-  - Practice: Build a menu-driven program (e.g., select operation: add, subtract).
-- **Day 5**: Review conditionals; explore edge cases (e.g., invalid inputs).
-  - Practice: Validate user input for a grading system (A-F).
-- **Weekend**: Review Week 2; write a program to simulate a simple quiz with conditionals.
-
-### Week 3: Control Flow - Loops
-- **Day 1**: Learn `for` loop; print numbers 1-10.
-  - Practice: Calculate sum of numbers 1-10.
-- **Day 2**: Learn `while` loop; understand loop conditions.
-  - Practice: Print even numbers up to 20.
-- **Day 3**: Learn `do-while` loop; compare with `while`.
-  - Practice: Create a program to prompt user until valid input is received.
-- **Day 4**: Learn `break` and `continue`.
-  - Practice: Stop a loop at a specific number; skip odd numbers in a loop.
-- **Day 5**: Combine loops and conditionals.
-  - Practice: Print a multiplication table for a given number.
-- **Weekend**: Review Week 3; write a program to find prime numbers up to 50 using loops.
-
-### Week 4: Methods and Month 1 Project
-- **Day 1**: Learn method declaration, calling, and return types.
-  - Practice: Write a method to calculate square of a number.
-- **Day 2**: Explore methods with parameters.
-  - Practice: Create a method to add two numbers.
-- **Day 3**: Learn method overloading.
-  - Practice: Overload a method to handle `int` and `double` inputs.
-- **Day 4**: Understand variable scope and lifetime.
-  - Practice: Experiment with local and global variables in methods.
-- **Day 5**: Review methods; explore method design.
-  - Practice: Write a method to check if a number is prime.
-- **Weekend**: Build a Simple Calculator (console-based) using conditionals, loops, and methods to perform arithmetic operations.
-- **Monthly Milestone**: Complete the calculator project; ensure it handles basic operations and input validation.
+# Month 1: Foundations of Java  
+**Author:** BLARD  
+**Objective:** Establish a solid grounding in Java syntax, control flow constructs, and method fundamentals to enable structured problem-solving using core language features.
 
 ---
 
-## Month 2: Object-Oriented Programming and Collections
-**Goal**: Understand OOP principles and work with arrays/collections.
+## Table of Contents
 
-### Week 5: Classes and Objects
-- **Day 1**: Learn classes, objects, and attributes.
-  - Practice: Create a `Book` class with title and author; instantiate objects.
-- **Day 2**: Explore constructors (default and parameterized).
-  - Practice: Add constructors to the `Book` class.
-- **Day 3**: Learn `this` keyword; understand its use.
-  - Practice: Use `this` in constructors and methods.
-- **Day 4**: Learn encapsulation with private fields and getters/setters.
-  - Practice: Encapsulate the `Book` class attributes.
-- **Day 5**: Review classes and objects; explore object interactions.
-  - Practice: Create multiple `Book` objects and print their details.
-- **Weekend**: Review Week 5; write a program to manage a library with multiple books.
+### Java Modules
+1. [Java Module 001](./java_module_001.md)
+2. [Java Module 002](./java_module_002.md)
+3. [Java Module 003](./java_module_003.md)
+4. [Java Module 004](./java_module_004.md)
+5. [Java Module 005](./java_module_005.md)
+6. [Java Module 006](./java_module_006.md)
+7. [Java Module 007](./java_module_007.md)
+8. [Java Module 008](./java_module_008.md)
+9. [Java Module 009](./java_module_009.md)
+10. [Java Module 010](./java_module_010.md)
+11. [Java Module 011](./java_module_011.md)
+12. [Java Module 012](./java_module_012.md)
 
-### Week 6: Inheritance and Polymorphism
-- **Day 1**: Learn inheritance (`extends`); create a parent-child class relationship.
-  - Practice: Create a `Vehicle` parent class and `Car` child class.
-- **Day 2**: Explore method overriding (Polymorphism).
-  - Practice: Override a method in the `Car` class (e.g., `describe()`).
-- **Day 3**: Learn access modifiers (`public`, `private`, `protected`, `default`).
-  - Practice: Apply modifiers to class attributes and methods.
-- **Day 4**: Understand packages; organize code.
-  - Practice: Create a simple package structure for your classes.
-- **Day 5**: Review inheritance and polymorphism.
-  - Practice: Extend the `Vehicle` hierarchy (e.g., add `Truck`).
-- **Weekend**: Review Week 6; write a program to simulate a vehicle showroom using inheritance.
-
-### Week 7: Arrays and Collections
-- **Day 1**: Learn one-dimensional arrays; declare and initialize.
-  - Practice: Store and print 5 numbers in an array.
-- **Day 2**: Explore multi-dimensional arrays.
-  - Practice: Create a 2x3 matrix and print its elements.
-- **Day 3**: Learn `ArrayList`; add/remove elements.
-  - Practice: Manage a list of student names.
-- **Day 4**: Learn `for-each` loop for arrays and collections.
-  - Practice: Iterate over an `ArrayList` to print elements.
-- **Day 5**: Explore `HashSet` for unique elements.
-  - Practice: Store unique city names in a `HashSet`.
-- **Weekend**: Review Week 7; write a program to store and manipulate student grades using arrays and `ArrayList`.
-
-### Week 8: More Collections and Month 2 Project
-- **Day 1**: Learn `HashMap` for key-value pairs.
-  - Practice: Store student IDs and names in a `HashMap`.
-- **Day 2**: Combine collections (e.g., `ArrayList` and `HashMap`).
-  - Practice: Create a program to map students to their grades.
-- **Day 3**: Review iteration techniques (loops, `for-each`).
-  - Practice: Iterate over a `HashMap` to print key-value pairs.
-- **Day 4**: Explore collection methods (e.g., `size()`, `contains()`).
-  - Practice: Check if a specific element exists in a collection.
-- **Day 5**: Review collections; explore real-world use cases.
-  - Practice: Simulate a simple inventory system using collections.
-- **Weekend**: Build a Student Management System (console-based) using OOP and collections to manage student details (name, ID, grades).
-- **Monthly Milestone**: Complete the student management system; ensure it uses classes, inheritance, and collections.
+### Projects
+1. [Project 001](./project_001.md)
+2. [Project 002](./project_002.md)
+3. [Project 003](./project_003.md)
 
 ---
 
-## Month 3: Exception Handling, File I/O, and Advanced Topics
-**Goal**: Learn error handling, file operations, and introductory Streams; apply knowledge in projects.
-
-### Week 9: Exception Handling
-- **Day 1**: Learn `try`, `catch`, and `finally`.
-  - Practice: Handle division by zero in a program.
-- **Day 2**: Explore throwing exceptions (`throw`, `throws`).
-  - Practice: Throw an exception for invalid input (e.g., negative number).
-- **Day 3**: Learn custom exceptions.
-  - Practice: Create a custom exception for invalid age.
-- **Day 4**: Combine exception handling with loops.
-  - Practice: Prompt user for input until valid (with exception handling).
-- **Day 5**: Review exception handling; explore checked vs unchecked exceptions.
-  - Practice: Handle multiple exceptions in a single program.
-- **Weekend**: Review Week 9; write a program to validate user inputs with custom exceptions.
-
-### Week 10: File Handling
-- **Day 1**: Learn `FileWriter` to write to a text file.
-  - Practice: Save a list of names to a file.
-- **Day 2**: Learn `FileReader` and `BufferedReader` to read from a file.
-  - Practice: Read and print the contents of the file.
-- **Day 3**: Combine file reading and writing.
-  - Practice: Append new data to an existing file.
-- **Day 4**: Handle file-related exceptions.
-  - Practice: Add exception handling to file operations.
-- **Day 5**: Review file handling; explore file use cases.
-  - Practice: Create a program to log user inputs to a file.
-- **Weekend**: Review Week 10; write a program to manage a simple contact list with file storage.
-
-### Week 11: Streams, Lambda, and Build Tools
-- **Day 1**: Learn basic Streams API (filter, map).
-  - Practice: Filter even numbers from a list using Streams.
-- **Day 2**: Explore lambda expressions.
-  - Practice: Use lambdas to sort a list of numbers.
-- **Day 3**: Combine Streams and lambda expressions.
-  - Practice: Filter and transform a list (e.g., square numbers > 5).
-- **Day 4**: Learn Maven/Gradle basics (project structure, purpose).
-  - Practice: Set up a simple Maven project.
-- **Day 5**: Review Streams and build tools.
-  - Practice: Convert a previous project to use Maven.
-- **Weekend**: Review Week 11; enhance a previous program with Streams.
-
-### Week 12: Capstone Project and Review
-- **Day 1**: Plan a Banking Application (console-based) using OOP, collections, and file handling.
-  - Practice: Design classes for accounts and transactions.
-- **Day 2**: Implement account management (create, update accounts).
-  - Practice: Add methods to deposit/withdraw money.
-- **Day 3**: Add file handling to save transactions.
-  - Practice: Save and load transaction history.
-- **Day 4**: Incorporate exception handling and Streams.
-  - Practice: Validate inputs and filter transactions using Streams.
-- **Day 5**: Polish the banking application; add user-friendly prompts.
-  - Practice: Test the application with various inputs.
-- **Weekend**: Complete the Banking Application; review all 3 months’ topics.
-- **Monthly Milestone**: Finalize the banking application; ensure it integrates OOP, collections, file I/O, exceptions, and Streams.
+## Learning Outcomes
+By the end of Month 1, learners should be able to:
+- Configure a functional Java development environment.
+- Write, compile, and execute Java programs from the command line or IDE.
+- Apply variables, data types, operators, and expressions effectively.
+- Implement conditional logic and iterative control structures.
+- Design and invoke reusable methods with appropriate parameters and return types.
 
 ---
 
-## Tips for Success
-- **Daily Practice**: Code daily, even small programs, to reinforce concepts.
-- **Debugging**: Use print statements or a debugger to understand errors.
-- **Resources**: Refer to Oracle’s Java Documentation or online tutorials (e.g., JavaTpoint, W3Schools).
-- **Projects**: Focus on projects to apply concepts practically.
-- **Review**: Use weekends to revisit weak areas and test yourself with small coding challenges.
+## Week 1: Java Setup and Language Basics
+**Focus:** Environment configuration, syntax fundamentals, and primitive data handling.
+
+- **Day 1:** Understand Java architecture (JDK, JRE, JVM); install the JDK; create and run `HelloWorld.java`.  
+  *Practice:* Print your name and a welcome message.
+
+- **Day 2:** Study comment styles (`//`, `/* */`); explore primitive data types (`int`, `double`, `char`, `boolean`).  
+  *Practice:* Declare and print variables of each primitive type.
+
+- **Day 3:** Introduce non-primitive types (`String`); understand variables and constants (`final`).  
+  *Practice:* Concatenate multiple strings and utilize a constant value.
+
+- **Day 4:** Learn arithmetic operators (`+`, `-`, `*`, `/`, `%`).  
+  *Practice:* Implement a program that calculates the area of a rectangle.
+
+- **Day 5:** Examine comparison (`==`, `!=`, `>`, `<`) and logical operators (`&&`, `||`, `!`).  
+  *Practice:* Determine whether a number is both positive and even.
+
+- **Weekend Review:** Consolidate Week 1 concepts by developing a program that performs calculations and comparisons between two numbers.
+
+---
+
+## Week 2: Control Flow – Conditional Statements
+**Focus:** Decision-making constructs and logical branching.
+
+- **Day 1:** Implement `if`, `else if`, and `else` statements.  
+  *Practice:* Classify a number as positive, negative, or zero.
+
+- **Day 2:** Explore nested conditional logic.  
+  *Practice:* Categorize age groups (child, teen, adult).
+
+- **Day 3:** Introduce the `switch` statement for structured branching.  
+  *Practice:* Map numbers (1–7) to corresponding day names.
+
+- **Day 4:** Integrate `if` and `switch` for menu-driven workflows.  
+  *Practice:* Create a console menu to perform arithmetic operations.
+
+- **Day 5:** Validate logical conditions and handle edge cases.  
+  *Practice:* Implement a grading system with input validation (A–F).
+
+- **Weekend Review:** Build a simple quiz simulator that evaluates answers using conditional logic.
+
+---
+
+## Week 3: Control Flow – Iterative Constructs
+**Focus:** Looping mechanisms and iterative problem solving.
+
+- **Day 1:** Learn the `for` loop and iteration patterns.  
+  *Practice:* Print numbers from 1 to 10 and compute their sum.
+
+- **Day 2:** Understand the `while` loop and condition-driven repetition.  
+  *Practice:* Print all even numbers up to 20.
+
+- **Day 3:** Study the `do-while` loop and its execution semantics.  
+  *Practice:* Prompt the user repeatedly until valid input is provided.
+
+- **Day 4:** Use loop control statements (`break`, `continue`).  
+  *Practice:* Terminate a loop at a specific value and skip odd numbers.
+
+- **Day 5:** Combine loops with conditionals for dynamic logic.  
+  *Practice:* Generate a multiplication table for a given number.
+
+- **Weekend Review:** Develop a program to compute prime numbers up to 50 using loops and conditional checks.
+
+---
+
+## Week 4: Methods and Monthly Project
+**Focus:** Modular programming and method abstraction.
+
+- **Day 1:** Define methods, return types, and invocation patterns.  
+  *Practice:* Implement a method to compute the square of a number.
+
+- **Day 2:** Work with parameterized methods.  
+  *Practice:* Create a method that adds two numbers.
+
+- **Day 3:** Introduce method overloading.  
+  *Practice:* Overload a method to support both `int` and `double` inputs.
+
+- **Day 4:** Understand variable scope and lifecycle.  
+  *Practice:* Experiment with local versus class-level variables.
+
+- **Day 5:** Emphasize clean method design and reusability.  
+  *Practice:* Implement a method that determines if a number is prime.
+
+- **Weekend Project:**  
+  Build a console-based **Simple Calculator** that performs arithmetic operations using conditionals, loops, and modular methods. Include robust input validation and clear user prompts.
+
+- **Monthly Milestone:**  
+  Deliver a functional calculator application demonstrating structured control flow, reusable methods, and defensive input handling.
+
+---
+
+# Month 2: Object-Oriented Programming and Collections
+**Objective:** Master core OOP principles and utilize Java’s collection framework for structured data management.
+
+---
+
+## Week 5: Classes and Objects
+**Focus:** Object modeling, constructors, and encapsulation.
+
+- **Day 1:** Define classes, attributes, and object instantiation.  
+  *Practice:* Create a `Book` class with `title` and `author` fields.
+
+- **Day 2:** Implement default and parameterized constructors.  
+  *Practice:* Extend the `Book` class with appropriate constructors.
+
+- **Day 3:** Apply the `this` keyword for context reference.  
+  *Practice:* Use `this` within constructors and instance methods.
+
+- **Day 4:** Enforce encapsulation using private fields and getters/setters.  
+  *Practice:* Encapsulate all attributes of the `Book` class.
+
+- **Day 5:** Model object interactions.  
+  *Practice:* Instantiate multiple `Book` objects and display their details.
+
+- **Weekend Review:** Develop a mini library manager to handle multiple book records.
+
+---
+
+## Week 6: Inheritance and Polymorphism
+**Focus:** Hierarchical design and dynamic behavior.
+
+- **Day 1:** Implement inheritance using `extends`.  
+  *Practice:* Create a `Vehicle` superclass and a `Car` subclass.
+
+- **Day 2:** Apply method overriding to demonstrate polymorphism.  
+  *Practice:* Override a `describe()` method in the `Car` class.
+
+- **Day 3:** Understand access modifiers (`public`, `private`, `protected`, default`).  
+  *Practice:* Refactor class members using appropriate visibility levels.
+
+- **Day 4:** Organize code with packages.  
+  *Practice:* Structure classes into logical packages.
+
+- **Day 5:** Expand class hierarchies.  
+  *Practice:* Add a `Truck` subclass extending `Vehicle`.
+
+- **Weekend Review:** Simulate a vehicle showroom system using inheritance and polymorphism.
+
+---
+
+## Week 7: Arrays and Collections
+**Focus:** Structured data storage and collection manipulation.
+
+- **Day 1:** Work with one-dimensional arrays.  
+  *Practice:* Store and print five numbers.
+
+- **Day 2:** Introduce multi-dimensional arrays.  
+  *Practice:* Create and display a 2×3 matrix.
+
+- **Day 3:** Use `ArrayList` for dynamic collections.  
+  *Practice:* Manage a list of student names.
+
+- **Day 4:** Iterate using enhanced `for-each` loops.  
+  *Practice:* Traverse and print elements of an `ArrayList`.
+
+- **Day 5:** Ensure uniqueness with `HashSet`.  
+  *Practice:* Store unique city names.
+
+- **Weekend Review:** Build a student-grade manager using arrays and `ArrayList`.
+
+---
+
+## Week 8: Advanced Collections and Monthly Project
+**Focus:** Key-value data structures and collection interoperability.
+
+- **Day 1:** Implement `HashMap` for key-value storage.  
+  *Practice:* Map student IDs to names.
+
+- **Day 2:** Combine multiple collection types.  
+  *Practice:* Associate students with grades using `HashMap` and `ArrayList`.
+
+- **Day 3:** Iterate through maps and complex structures.  
+  *Practice:* Print all key-value pairs in a `HashMap`.
+
+- **Day 4:** Utilize collection utility methods (`size()`, `contains()`).  
+  *Practice:* Validate element existence within collections.
+
+- **Day 5:** Apply collections to real-world scenarios.  
+  *Practice:* Simulate an inventory management system.
+
+- **Weekend Project:**  
+  Develop a console-based **Student Management System** using OOP and collections to manage student records (name, ID, grades).
+
+- **Monthly Milestone:**  
+  Deliver a modular system employing encapsulation, inheritance, and Java Collections Framework.
+
+---
+
+# Month 3: Exception Handling, File I/O, and Advanced Topics
+**Objective:** Implement robust error handling, persistent storage, and functional-style operations using Streams and Lambdas.
+
+---
+
+## Week 9: Exception Handling
+**Focus:** Runtime stability and defensive programming.
+
+- **Day 1:** Implement `try`, `catch`, and `finally`.  
+  *Practice:* Safely handle division-by-zero errors.
+
+- **Day 2:** Use `throw` and `throws` for controlled error propagation.  
+  *Practice:* Validate numeric input and throw exceptions for invalid values.
+
+- **Day 3:** Create custom exception classes.  
+  *Practice:* Define and use an `InvalidAgeException`.
+
+- **Day 4:** Combine loops with exception handling.  
+  *Practice:* Continuously prompt until valid input is received.
+
+- **Day 5:** Differentiate checked vs unchecked exceptions.  
+  *Practice:* Handle multiple exception types in one program.
+
+- **Weekend Review:** Implement a user input validator leveraging custom exceptions.
+
+---
+
+## Week 10: File Handling
+**Focus:** Persistent data storage and retrieval.
+
+- **Day 1:** Write data using `FileWriter`.  
+  *Practice:* Persist a list of names to a text file.
+
+- **Day 2:** Read data using `FileReader` and `BufferedReader`.  
+  *Practice:* Load and display file contents.
+
+- **Day 3:** Perform combined read/write operations.  
+  *Practice:* Append new records to an existing file.
+
+- **Day 4:** Handle file-related exceptions robustly.  
+  *Practice:* Wrap all I/O operations with appropriate exception handling.
+
+- **Day 5:** Apply file handling to practical use cases.  
+  *Practice:* Log user inputs to a persistent file.
+
+- **Weekend Review:** Build a simple contact list manager with file persistence.
+
+---
+
+## Week 11: Streams, Lambda Expressions, and Build Tools
+**Focus:** Functional programming constructs and project tooling.
+
+- **Day 1:** Use Streams API (`filter`, `map`).  
+  *Practice:* Extract even numbers from a list using streams.
+
+- **Day 2:** Implement lambda expressions for concise behavior definitions.  
+  *Practice:* Sort a list using lambda-based comparators.
+
+- **Day 3:** Combine Streams with lambdas for transformations.  
+  *Practice:* Filter and square numbers greater than five.
+
+- **Day 4:** Introduce Maven/Gradle fundamentals and project structure.  
+  *Practice:* Initialize and build a simple Maven project.
+
+- **Day 5:** Refactor previous work into a build-managed project.  
+  *Practice:* Convert an earlier project to Maven structure.
+
+- **Weekend Review:** Enhance a previous application using Streams and lambdas.
+
+---
+
+## Week 12: Capstone Project and Comprehensive Review
+**Focus:** End-to-end application design integrating all learned concepts.
+
+- **Day 1:** Design a console-based **Banking Application** (accounts, transactions).  
+- **Day 2:** Implement account lifecycle operations (create, deposit, withdraw).  
+- **Day 3:** Persist transaction history using file I/O.  
+- **Day 4:** Integrate exception handling and Streams for validation and filtering.  
+- **Day 5:** Refine UX prompts and perform comprehensive testing.
+
+- **Weekend Capstone:**  
+  Finalize the Banking Application, ensuring integration of OOP, collections, file handling, exception management, and Streams.
+
+- **Final Milestone:**  
+  Deliver a robust, modular console application demonstrating full-spectrum Java proficiency across three months.
+
+---
+
+## Professional Study Recommendations
+- **Daily Coding Discipline:** Reinforce concepts through consistent implementation.
+- **Debugging Practices:** Use structured logging and step-through debugging tools.
+- **Authoritative References:** Consult official Java documentation and standard language specifications.
+- **Project-Centric Learning:** Prioritize practical implementations over passive reading.
+- **Periodic Reviews:** Revisit weak areas weekly and solve incremental coding challenges to validate mastery.
